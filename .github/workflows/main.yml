@@ -20,6 +20,8 @@ jobs:
           node-version: '16.x'
       - name: Install dependencies
         run: npm install --legacy-peer-deps
+      - name: Run build
+        run: npm run build
       - name: Deploy
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
