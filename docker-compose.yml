@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  frontend:
+    image: node:16
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - "3000:3000"
+    command: sh -c "npm install --legacy-peer-deps && npm start"
