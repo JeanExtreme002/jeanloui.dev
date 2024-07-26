@@ -15,6 +15,7 @@ import {
     FaYoutube,
     FaStackOverflow,
     FaAward,
+    FaDiscord
 } from 'react-icons/fa';
 
 function Landing() {
@@ -141,6 +142,19 @@ function Landing() {
                                 />
                             </a>
                         )}
+                        {socialsData.discord && (
+                            <a
+                                href={socialsData.discord}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaDiscord
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Blogger'
+                                />
+                            </a>
+                        )}
                         {socialsData.credly && (
                             <a
                                 href={socialsData.credly}
@@ -175,7 +189,9 @@ function Landing() {
                     >
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p>{headerData.desciption}</p>
+                        <p>{headerData.description1}</p>
+                        <br/>
+                        <p>{headerData.description2}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (

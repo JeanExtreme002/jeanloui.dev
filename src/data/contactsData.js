@@ -1,5 +1,5 @@
 export const contactsData = {
-    email: 'jeanextreme002@gmail.com',
+    email: 'jeanjesus@ufba.br',
     phone: '+5571991338454',
     address: 'Salvador, Bahia, Brazil',
     sheetAPI: 'https://formspree.io/f/meojebpg'
