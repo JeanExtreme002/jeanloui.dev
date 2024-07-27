@@ -1,3 +1,5 @@
+export const experienceBio = "Forward strides in my career shape my path toward ongoing growth";
+
 export const experienceData = [
     {
         id: 1,

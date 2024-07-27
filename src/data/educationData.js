@@ -1,3 +1,5 @@
+export const educationBio = "The pursuit of knowledge is the path to transforming the future.";
+
 export const educationData = [
     {
         id: 1,

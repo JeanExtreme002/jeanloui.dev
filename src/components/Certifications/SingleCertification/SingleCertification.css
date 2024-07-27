@@ -1,0 +1,40 @@
+.singleCertification {
+    box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem 1.2rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.certificationContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.certificationContent > img {
+    width: 90%;
+    height: 87%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.certificationContent > h2 {
+    font-family: var(--primaryFont);
+    font-style: normal;
+    font-size: 1.225rem;
+    font-weight: 600;
+    line-height: 110%;
+    text-align: center;
+}

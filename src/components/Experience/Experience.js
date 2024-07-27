@@ -4,7 +4,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 
 import './Experience.css';
 
-import { experienceData } from '../../data/experienceData'
+import { experienceBio, experienceData } from '../../data/experienceData'
 import ExperienceCard from './ExperienceCard';
 
 function Experience() {
@@ -14,6 +14,7 @@ function Experience() {
         <div className="experience" id="experience" style={{backgroundColor: theme.secondary}}> 
              <div className="experience-body">
                  <div className="experience-image">
+                     <h4 style={{color:theme.tertiary}}>{experienceBio}</h4>
                      <img src={theme.expimg} alt="" />
                  </div>
                  <div className="experience-description">

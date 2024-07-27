@@ -26,7 +26,7 @@ import { HiOutlineLocationMarker } from 'react-icons/hi';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
 import { socialsData } from '../../data/socialsData';
-import { contactsData } from '../../data/contactsData';
+import { contactsBio, contactsData } from '../../data/contactsData';
 import './Contacts.css';
 
 function Contacts() {
@@ -281,8 +281,8 @@ function Contacts() {
                             />
                         </Snackbar>
                     </div>
-
                     <div className='contacts-details'>
+                        <h4 style={{color:theme.tertiary}}>{contactsBio}</h4>
                         <a
                             href={`mailto:${contactsData.email}`}
                             className='personal-details'

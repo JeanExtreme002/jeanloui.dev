@@ -5,7 +5,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import './Education.css'
 import EducationCard from './EducationCard';
 
-import { educationData } from '../../data/educationData'
+import { educationBio, educationData } from '../../data/educationData'
 
 function Education() {
 
@@ -28,6 +28,7 @@ function Education() {
                     ))}
                 </div>
                 <div className="education-image">
+                    <h4 style={{color:theme.tertiary}}>{educationBio}</h4>
                     <img src={theme.eduimg} alt=""/>
                 </div>
             </div>

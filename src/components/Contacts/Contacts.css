@@ -167,6 +167,13 @@
     margin-top: 4rem;
 }
 
+.contacts-details > h4 {
+    font-size: 1.3rem;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
 
 @media (min-width: 992px) and (max-width: 1380px) {
     .contacts--img {

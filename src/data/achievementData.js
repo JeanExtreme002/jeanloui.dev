@@ -1,28 +1,36 @@
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+    bio : "Overcoming challenges is like forging a sword in the fire: each difficulty and obstacle hardens our determination and refines our character, until we emerge stronger and ready to face any adversity with renewed courage.",
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud Foundations Certification',
-            details : "The Google Cloud Computing Foundations Academy is a Google's program that offers online courses for those who wish to learn the fundamentals of cloud computing with Google Cloud.",
-            date : 'April 16, 2024',
-            field : 'Cloud',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title : 'Zero Stage of the SBC Programming Marathon (2024)',
+            details : "Placed 166th out of 807 in the 2024 Zero Stage of the SBC Programming Marathon, held on Beecrowd.",
+            date : 'May, 2024',
+            field : 'Marathon',
+            image : 'https://i.ytimg.com/vi/1ARb1bY3ZCQ/maxresdefault.jpg'
         },
         {
             id : 2,
-            title : 'CS50 Certification: Web Programming with Python and JavaScript ',
-            details : "On completion of CS50's Web Programming with Python and JavaScript, including six web projects using Django and HTML.",
-            date : 'July 09, 2024',
-            field : 'Development',
-            image : 'https://miro.medium.com/v2/resize:fit:1200/1*nm4VZt2HpZj0CW3FL3b-eg.png'
+            title : 'ICPC South America/Brazil First Phase (2023)',
+            details : "Placed 302th out of 664 in the 2023 ICPC South America/Brazil.",
+            date : 'Sep, 2023',
+            field : 'Marathon',
+            image : 'https://www-file.huawei.com/-/media/corporate/images/news4/2024/q2/240423-4.jpg'
         },
         {
             id : 3,
-            title : 'IBM Certification: Back-end Application Development with Node.js and Express',
-            details : 'Demonstrated the ability to develop server-side applications with Node.js and Express, applying knowledge of routing, middleware, and templating, and has completed RESTful API project.',
-            date : 'Jan 23, 2024',
-            field : 'Development',
+            title : 'Coder Rerun 2.0 - IEEE UEL',
+            details : "Placed 6th out of 23 teams in the Coder Rerun 2.0 - IEEE UEL.",
+            date : 'April, 2022',
+            field : 'Marathon',
+            image : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2xYii56Z5ukYv8ul9eaPQT3AGkb4431gdog&s'
+        },
+        {
+            id : 4,
+            title : 'IBM: Marathon Behind the Code (2019)',
+            details : 'Placed 83th of top 100 at the challenge 01 (Grupo Pão de Açúcar) and placed 23th of top 100 at the challenge 04 (Grupo Boticário).',
+            date : 'Aug, 2019',
+            field : 'Marathon',
             image : 'https://img.odcdn.com.br/wp-content/uploads/2021/03/shutterstock_1873982623_Easy-Resize.com_.jpg'
         }
 

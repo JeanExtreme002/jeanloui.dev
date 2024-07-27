@@ -1,0 +1,85 @@
+.certificationPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.certificationPage-header {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.certificationPage-header > h1 {
+    font-size: 4rem;
+    font-family: var(--primaryFont);
+}
+
+.certificationPage-container {
+    padding: 3rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.certificationPage-search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certification-container {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.certification-grid {
+    display: flex;
+    gap: 4rem; 
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    .certificationPage-header {
+        height: 25vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .certification-grid {
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .certification-grid {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .certificationPage-header h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .certificationPage-header {
+        height: 20vh;
+    }
+    .certificationPage-header h1 {
+        font-size: 2.5rem;
+    }
+}
