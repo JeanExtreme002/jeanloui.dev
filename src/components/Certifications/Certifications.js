@@ -61,6 +61,7 @@ function Certifications() {
                                     url={certification.url}
                                     institution={certification.institution}
                                     image={certification.image}
+                                    description={certification.description}
                                 />
                             ))}
                         </div>
@@ -74,6 +75,7 @@ function Certifications() {
                                     url={certification.url}
                                     institution={certification.institution}
                                     image={certification.image}
+                                    description={certification.description}
                                 />
                             ))}
                         </div>  

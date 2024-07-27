@@ -91,6 +91,7 @@ function CertificationPage() {
                                 institution={certification.institution}
                                 url={certification.url}
                                 image={certification.image} 
+                                description={certification.description}
                             />
                         ))}
                    </Grid>
