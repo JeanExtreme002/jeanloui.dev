@@ -1,13 +1,13 @@
 .singleCertification {
     box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
-    width: 400px;
-    height: 300px;
+    width: 390px;
+    height: 292px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.2rem 1.2rem;
+    padding: 0.9rem 0.2rem;
     position: relative;
     cursor: pointer;
     overflow: hidden;
