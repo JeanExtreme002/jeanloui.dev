@@ -231,15 +231,9 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   .lcr--content {
-    margin-top: 50%;
-  }
-}
-
-@media (max-width: 399px) {
-  .lcr--content {
-    margin-top: 90%;
+    margin-top: 40%;
   }
 }
 
