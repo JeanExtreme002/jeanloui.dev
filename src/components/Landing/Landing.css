@@ -222,6 +222,13 @@
   .lcr--content {
     margin-top: 35%;
   }
+
+  .lcr--content h1 {
+    font-size: 1.5rem;
+  }
+  .lcr--content p {
+    font-size: 0.75rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -232,7 +239,7 @@
 
 @media (max-width: 399px) {
   .lcr--content {
-    margin-top: 110%;
+    margin-top: 90%;
   }
 }
 
