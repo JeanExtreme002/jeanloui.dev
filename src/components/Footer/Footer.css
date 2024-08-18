@@ -10,9 +10,39 @@
 .footer p {
     font-weight: 500;
     font-family: var(--primaryFont);
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .footer p span {
-    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 850px) {
+    .footer p {
+        font-size: 0.7rem;
+    }
+    
+    .footer p span {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer p {
+        font-size: 0.6rem;
+    }
+    
+    .footer p span {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .footer p {
+        font-size: 0.5rem;
+    }
+    
+    .footer p span {
+        font-size: 0.6rem;
+    }
 }
