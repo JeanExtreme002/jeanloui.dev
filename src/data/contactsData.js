@@ -1,8 +1,8 @@
 export const contactsBio = 'Now that you know me, send me a "hello world". I\'d love to get to know you too!';
 
 export const contactsData = {
-    email: 'jeanjesus@ufba.br',
-    phone: '+55 (71) 99133-8454',
+    email: 'contact@jeanloui.dev',
+    phone: null,
     address: 'Salvador, Bahia, Brazil',
-    sheetAPI: 'https://formspree.io/f/meojebpg'
+    sheetAPI: 'https://formspree.io/f/xeoopgwv'
 }
