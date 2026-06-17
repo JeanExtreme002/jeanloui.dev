@@ -2,7 +2,7 @@
   {
     "name": "FlightRadarAPI",
     "icon": "plane",
-    "description": "SDK for Python and Node.js to retrieve real-time data about flights, aircraft and airports from Flightradar24. Published on PyPI and NPM.",
+    "description": "SDK for Python and Node.js to retrieve real-time data about flights, aircraft and airports from Flightradar24.",
     "tech": ["Python", "Node.js", "SDK", "Flight Data"],
     "repoUrl": "https://github.com/JeanExtreme002/FlightRadarAPI",
     "metric": { "icon": "download", "value": "180K+/mo", "label": "PyPI downloads" },
@@ -11,7 +11,7 @@
   {
     "name": "PyMemoryEditor",
     "icon": "memory",
-    "description": "Python library built with ctypes to read, write and scan values in the memory of Windows and Linux processes.",
+    "description": "Python library built with ctypes that lets you inspect, modify and search the memory of any running process in a few lines of Python.",
     "tech": ["Python", "Library", "Cross-platform", "GUI"],
     "repoUrl": "https://github.com/JeanExtreme002/PyMemoryEditor",
     "metric": { "icon": "star", "value": "197 stars", "label": "GitHub stars" },
