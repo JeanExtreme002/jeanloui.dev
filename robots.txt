@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+User-Agent: *
+Allow: /
+
+Host: https://jeanloui.dev
+Sitemap: https://jeanloui.dev/sitemap.xml
