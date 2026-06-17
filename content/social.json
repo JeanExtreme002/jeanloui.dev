@@ -1,0 +1,26 @@
+[
+  {
+    "platform": "GitHub",
+    "icon": "github",
+    "handle": "@JeanExtreme002",
+    "url": "https://github.com/JeanExtreme002"
+  },
+  {
+    "platform": "LinkedIn",
+    "icon": "linkedin",
+    "handle": "in/jean-loui-bernard",
+    "url": "https://www.linkedin.com/in/jean-loui-bernard/"
+  },
+  {
+    "platform": "Stack Overflow",
+    "icon": "stackoverflow",
+    "handle": "JeanExtreme002",
+    "url": "https://pt.stackoverflow.com/users/157404/jeanextreme002?tab=profile"
+  },
+  {
+    "platform": "Credly",
+    "icon": "credly",
+    "handle": "Verified badges",
+    "url": "https://www.credly.com/users/jean-loui-bernard-silva-de-jesus/badges"
+  }
+]

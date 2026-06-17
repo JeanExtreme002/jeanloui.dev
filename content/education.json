@@ -1,0 +1,26 @@
+[
+  {
+    "institution": "Federal University of Bahia",
+    "logo": "/images/logos/ufba.png",
+    "url": "https://www.ufba.br",
+    "degree": "B.Sc. in Computer Science",
+    "start": "2021",
+    "end": "2026"
+  },
+  {
+    "institution": "HarvardX",
+    "logo": "/images/logos/harvard.png",
+    "url": "https://www.edx.org/school/harvardx",
+    "degree": "CS50 — Computer Science for Web Programming",
+    "start": "2024",
+    "end": "2024"
+  },
+  {
+    "institution": "Google",
+    "logo": "/images/logos/google.png",
+    "url": "https://cloud.google.com/training",
+    "degree": "Cloud Computing Foundations Academy",
+    "start": "2024",
+    "end": "2024"
+  }
+]

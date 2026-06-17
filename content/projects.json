@@ -1,0 +1,74 @@
+[
+  {
+    "name": "FlightRadarAPI",
+    "icon": "plane",
+    "description": "SDK for Python and Node.js to retrieve real-time data about flights, aircraft and airports from Flightradar24. Published on PyPI and NPM.",
+    "tech": ["Python", "Node.js", "SDK", "Flight Data"],
+    "repoUrl": "https://github.com/JeanExtreme002/FlightRadarAPI",
+    "metric": { "icon": "download", "value": "180K+/mo", "label": "PyPI downloads" },
+    "secondary": { "label": "PyPI", "url": "https://pypi.org/project/FlightRadarAPI/" }
+  },
+  {
+    "name": "PyMemoryEditor",
+    "icon": "memory",
+    "description": "Python library built with ctypes to read, write and scan values in the memory of Windows and Linux processes.",
+    "tech": ["Python", "Library", "Cross-platform", "GUI"],
+    "repoUrl": "https://github.com/JeanExtreme002/PyMemoryEditor",
+    "metric": { "icon": "star", "value": "197 stars", "label": "GitHub stars" },
+    "secondary": { "label": "PyPI", "url": "https://pypi.org/project/PyMemoryEditor/" }
+  },
+  {
+    "name": "DokkuWeb",
+    "icon": "dashboard",
+    "description": "A web application that serves as a dashboard interface for managing apps and resources on a Dokku platform.",
+    "tech": ["Next.js", "Dashboard", "Dokku", "DevOps"],
+    "repoUrl": "https://github.com/JeanExtreme002/DokkuWeb",
+    "metric": { "icon": "star", "value": "42 stars", "label": "GitHub stars" },
+    "secondary": { "label": "Live demo", "url": "https://dokku-web.app.ic.ufba.br/" }
+  },
+  {
+    "name": "Dokku-API",
+    "icon": "server",
+    "description": "A REST API for managing applications and resources on a Dokku platform.",
+    "tech": ["Python", "REST API", "Dokku", "PaaS"],
+    "repoUrl": "https://github.com/JeanExtreme002/Dokku-API",
+    "metric": { "icon": "star", "value": "46 stars", "label": "GitHub stars" },
+    "secondary": null
+  },
+  {
+    "name": "Autocomplete Suggestions",
+    "icon": "search",
+    "description": "Full-stack search demo with real-time autocomplete: relevant suggestions appear as the user types, powered by Elasticsearch.",
+    "tech": ["Elasticsearch", "GraphQL", "FastAPI", "React"],
+    "repoUrl": "https://github.com/JeanExtreme002/Autocomplete",
+    "metric": null,
+    "secondary": null
+  },
+  {
+    "name": "FastSnake CLI",
+    "icon": "terminal",
+    "description": "A Python CLI, published on PyPI, with tooling that helps competitive programmers develop and test solutions during contests.",
+    "tech": ["Python", "CLI", "Competitive Programming"],
+    "repoUrl": "https://github.com/JeanExtreme002/FastSnake",
+    "metric": null,
+    "secondary": { "label": "PyPI", "url": "https://pypi.org/project/FastSnake/" }
+  },
+  {
+    "name": "Virtual Assistant",
+    "icon": "mic",
+    "description": "A voice-driven virtual assistant that can search the web, open websites and launch programs using speech recognition.",
+    "tech": ["Python", "Speech Recognition", "PyQt5", "gTTS"],
+    "repoUrl": "https://github.com/JeanExtreme002/Virtual-Assistant",
+    "metric": null,
+    "secondary": null
+  },
+  {
+    "name": "Kivy Chat",
+    "icon": "chat",
+    "description": "A Kivy application that uses raw sockets to spin up a server and chat with friends over TCP/IP.",
+    "tech": ["Python", "Kivy", "Sockets", "TCP/IP"],
+    "repoUrl": "https://github.com/JeanExtreme002/Kivy-Chat",
+    "metric": null,
+    "secondary": null
+  }
+]
