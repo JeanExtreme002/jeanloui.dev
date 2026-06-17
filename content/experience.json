@@ -1,0 +1,58 @@
+[
+  {
+    "company": "Jusbrasil",
+    "logo": "/images/logos/jusbrasil.png",
+    "url": "https://www.jusbrasil.com.br",
+    "location": "Remote · Brazil",
+    "positions": [
+      {
+        "title": "Software Engineer Intern",
+        "start": "2024",
+        "end": "Present",
+        "description": "Development of an entirely new B2C product at Jusbrasil, collaborating with leaders, designers, product managers, and other teams.",
+        "highlights": [
+          "Implemented APIs in Golang, retrieving information from multiple systems, creating prompts and sending requests to well-known LLM APIs in the market.",
+          "Developed landing pages and new front-end features in React, as well as experiments and event tracking in collaboration with DAs.",
+          "Managed GraphQL server in TypeScript and GQL using Apollo library.",
+          "Wrote unit tests for both back-end and front-end; Code reviewing."
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Escavador",
+    "logo": "/images/logos/escavador.png",
+    "url": "https://www.escavador.com",
+    "location": "Remote · Brazil",
+    "positions": [
+      {
+        "title": "Software Engineer Intern",
+        "start": "2022",
+        "end": "2023",
+        "description": "Designed and set up the search engine used by Escavador to store and search billion of documents from several brazilian law courts and gover nment gazettes.",
+        "highlights": [
+          "Built a high-performance asynchronous indexer in Python to feed the search engine with entities from multiple MySQL databases — in addition to developing new features for the Vespa.ai repository.",
+          "Managed and improved the ranking system of the SE by refining and creating new ranking formulas — implemented features to filter and return good results to the website, for each search category."
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Federal University of Bahia",
+    "logo": "/images/logos/ufba.png",
+    "url": "https://www.ufba.br",
+    "location": "Salvador · Brazil",
+    "positions": [
+      {
+        "title": "Undergraduate Researcher — Neural Radiance Fields (NeRF)",
+        "start": "2023",
+        "end": "2024",
+        "description": "Researched Neural Radiance Fields for 3D scene reconstruction.",
+        "highlights": [
+          "Integrated into the Graphic Computing Laboratory (CGLab), within the Visual Computing Research Group.",
+          "Investigated NeRF and 3D Gaussian Splatting algorithms for the reconstruction of 3D objects and analyzed Neural Network and Deep Learning algorithms used in Neural Rendering, developing prototypes to test and evaluate such models, applied to image synthesis and reconstruction of complex scenes from a set of images."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "organization": "ICPC — International Collegiate Programming Contest",
+    "logo": "/images/logos/icpc.png",
+    "url": "https://icpc.global",
+    "role": "Staff Member — ICPC Latin America Championship 2025",
+    "start": "2025",
+    "end": "2025",
+    "description": "Staff member at the 2025 ICPC Latin America Championship, supporting the organization and on-site operation of one of the world's most prestigious collegiate programming contests."
+  },
+  {
+    "organization": "SEMCOMP — InfoJr UFBA",
+    "logo": null,
+    "url": "https://semcomp.com.br",
+    "role": "Python Workshop Leader",
+    "start": "2023",
+    "end": "2023",
+    "description": "Designed and led a hands-on Python workshop at SEMCOMP 23, one of the largest student-run computing events in Salvador."
+  },
+  {
+    "organization": "Federal University of Bahia",
+    "logo": "/images/logos/ufba.png",
+    "url": "https://www.ufba.br",
+    "role": "Teaching Assistant — Data Structures & Algorithms I",
+    "start": "2022",
+    "end": "2023",
+    "description": "Mentored undergraduate students in introduction to object-oriented programming, algorithm complexity analysis, sorting algorithms and data structures. Assisted the professor by reviewing assessments and providing one-on-one support to students."
+  }
+]

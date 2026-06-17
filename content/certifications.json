@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Web Programming with Python and JavaScript (CS50W)",
+    "issuer": "HarvardX",
+    "date": "2024",
+    "image": "/images/certifications/harvard1.png",
+    "url": "https://certificates.cs50.io/aa98ff57-c6d7-4f63-b746-0a4338f33cfd",
+    "skills": ["Python", "JavaScript", "Django", "SQL", "Web"]
+  },
+  {
+    "title": "Google Cloud Computing Foundations Academy",
+    "issuer": "Google",
+    "date": "2024",
+    "image": "/images/certifications/google1.png",
+    "url": "https://www.cloudskillsboost.google/public_profiles/169962f9-8de2-44df-adf1-ea97a3f310d8",
+    "skills": ["Google Cloud", "Cloud Computing", "Networking", "Security"]
+  },
+  {
+    "title": "Back-end Application Development with Node.js and Express",
+    "issuer": "IBM",
+    "date": "2024",
+    "image": "/images/certifications/ibm1.png",
+    "url": "https://courses.edx.org/certificates/eebbb5965a66467cabad419d6e8708f5",
+    "skills": ["Node.js", "Express", "REST", "JWT", "Backend"]
+  },
+  {
+    "title": "Python for AI & Development Project",
+    "issuer": "IBM",
+    "date": "2024",
+    "image": "/images/certifications/ibm2.png",
+    "url": "https://courses.edx.org/certificates/dedab0e4c78e4682b1e195e375c12a23",
+    "skills": ["Python", "Flask", "REST API", "Backend"]
+  },
+  {
+    "title": "Python for Data Science",
+    "issuer": "IBM",
+    "date": "2024",
+    "image": "/images/certifications/ibm3.png",
+    "url": "https://www.credly.com/badges/bc5aeff5-53ad-47d8-926b-4f48b32fc76a/linked_in_profile",
+    "skills": ["Python", "Data Science"]
+  },
+  {
+    "title": "IBM Cloud Essentials V3",
+    "issuer": "IBM",
+    "date": "2024",
+    "image": "/images/certifications/ibm4.png",
+    "url": "https://www.credly.com/badges/d02a3f3b-2996-4e56-8eab-1c1eb885c69e/linked_in_profile",
+    "skills": ["IBM Cloud", "Virtualization", "Networking", "AI"]
+  },
+  {
+    "title": "Enterprise Design Thinking Practitioner",
+    "issuer": "IBM",
+    "date": "2024",
+    "image": "/images/certifications/ibm5.png",
+    "url": "https://www.credly.com/badges/16e02f88-2fd5-47e5-96b9-8f2b23af376f",
+    "skills": ["Design Thinking", "Collaboration", "Communication"]
+  }
+]
