@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, Terminal } from "lucide-react";
+import { ArrowRight, Code2, Terminal } from "lucide-react";
 import { profile } from "@/lib/content";
 import { CopyEmailButton } from "@/components/CopyEmailButton";
 import { SocialLinks } from "@/components/SocialLinks";
@@ -40,13 +40,19 @@ export function Hero() {
         </div>
 
         <div className="order-first min-w-0 md:order-last">
-          <div className="mx-auto w-full max-w-[18rem] md:max-w-none">
+          <div className="group relative mx-auto w-full max-w-[18rem] md:max-w-none">
+            <span
+              aria-hidden
+              className="absolute -left-5 -top-5 z-10 flex h-11 w-11 -rotate-6 items-center justify-center rounded-xl border border-line-strong bg-paper text-accent shadow-sm transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:rotate-0"
+            >
+              <Code2 className="h-6 w-6" />
+            </span>
             <div className="relative">
               <div
                 aria-hidden
-                className="absolute inset-0 -rotate-3 rounded-2xl bg-accent-soft"
+                className="absolute inset-0 -rotate-3 rounded-2xl bg-accent-soft transition-transform duration-300 group-hover:-rotate-[5deg]"
               />
-              <div className="relative overflow-hidden rounded-2xl border border-line-strong shadow-sm">
+              <div className="relative overflow-hidden rounded-2xl border border-line-strong shadow-md transition-transform duration-300 group-hover:-translate-y-0.5">
                 <Image
                   src={profile.photo}
                   alt={`Portrait of ${profile.fullName}`}
