@@ -9,9 +9,8 @@ export function Contact() {
     <Section id="contact" eyebrow="say hello" title="Let's build something together.">
       <div className="grid gap-12 md:grid-cols-2">
         <div>
-          <p className="max-w-md text-lg leading-relaxed text-muted">
-            The fastest way to reach me is email — copy it below and write whenever you like. No
-            forms, no friction.
+          <p className="max-w-md text-md leading-relaxed text-muted">
+            Got something in mind? Just send me an email.
           </p>
           <div className="mt-6 max-w-md">
             <CopyEmailButton email={profile.email} variant="inline" />

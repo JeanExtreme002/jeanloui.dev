@@ -64,16 +64,18 @@ export interface Volunteering {
 export interface ProjectLink {
   label: string;
   url: string;
+  icon?: string;
 }
 
 export interface Project {
   name: string;
   icon: string;
   description: string;
-  tech: string[];
+  keywords: string[];
   repoUrl: string;
   metric: Stat | null;
   secondary: ProjectLink | null;
+  tertiary?: ProjectLink | null;
 }
 
 export interface Certification {

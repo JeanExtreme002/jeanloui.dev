@@ -5,7 +5,15 @@
     "url": "https://www.ufba.br",
     "degree": "B.Sc. in Computer Science",
     "start": "2021",
-    "end": "2026"
+    "end": "Present"
+  },
+  {
+    "institution": "IBM",
+    "logo": "/images/logos/ibm.png",
+    "url": "https://www.edx.org/school/ibm",
+    "degree": "MicroBachelors — Full Stack Application Development (IBM)",
+    "start": "2024",
+    "end": "Present"
   },
   {
     "institution": "HarvardX",
