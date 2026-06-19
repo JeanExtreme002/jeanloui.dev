@@ -3,8 +3,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { HelloSignature } from "./HelloSignature";
-import { TrailToggle } from "./TrailToggle";
-import { profile } from "@/lib/content";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -30,20 +28,17 @@ export function Header() {
           <HelloSignature />
         </a>
 
-        <div className="hidden items-center gap-6 lg:flex">
-          <nav className="flex items-center gap-7" aria-label="Primary">
-            {navItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="text-sm text-muted transition-colors hover:text-ink"
-              >
-                {item.label}
-              </a>
-            ))}
-          </nav>
-          {profile.heroTrail ? <TrailToggle /> : null}
-        </div>
+        <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">
+          {navItems.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="text-sm text-muted transition-colors hover:text-ink"
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
 
         <button
           type="button"

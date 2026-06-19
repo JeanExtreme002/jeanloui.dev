@@ -69,11 +69,6 @@
   stroke-dashoffset: 1;
 }
 
-/* trail disabled via the header toggle */
-html[data-trail="off"] .hero-trail-mount {
-  display: none;
-}
-
 /* delay ≈ the Hello! signature draw time, so the trail starts as it finishes */
 .hero-trail.is-drawn .hero-trail-line {
   animation: hello-write 3.4s cubic-bezier(0.65, 0, 0.35, 1) 1.2s forwards;
