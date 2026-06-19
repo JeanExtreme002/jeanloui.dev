@@ -25,6 +25,8 @@ export interface Profile {
   photo: string;
   projectsLimit: number;
   certificationsPerPage: number;
+  /** Master switch for the decorative Hero→About ink trail (and its toggle). */
+  heroTrail: boolean;
   summary: string[];
 }
 

@@ -9,6 +9,7 @@
   "photo": "/images/profile.jpg",
   "projectsLimit": 4,
   "certificationsPerPage": 3,
+  "heroTrail": true,
   "summary": [
     "I'm a full-stack Software Engineer and Computer Science graduate from the Federal University of Bahia, with a strong foundation in systems design, APIs and software architecture.",
     "I design and ship software that people actually use — from open-source libraries with hundreds of thousands of downloads to web applications backed by microservices, data pipelines and search infrastructure.",
