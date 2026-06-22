@@ -2,6 +2,7 @@ import { Download } from "lucide-react";
 import { profile } from "@/lib/content";
 import { Section } from "@/components/Section";
 import { CopyEmailButton } from "@/components/CopyEmailButton";
+import { ArrowDoodle } from "@/components/Doodles";
 import { SocialLinks } from "@/components/SocialLinks";
 
 export function Contact() {
@@ -14,6 +15,10 @@ export function Contact() {
           </p>
           <div className="mt-6 max-w-md">
             <CopyEmailButton email={profile.email} variant="inline" />
+            <p className="mt-2 ml-12 flex items-center gap-2">
+              <ArrowDoodle className="h-8 w-8 text-accent" />
+              <span className="font-hand text-xl text-accent">fastest way to reach me</span>
+            </p>
           </div>
           <a
             href={profile.resumeUrl}
