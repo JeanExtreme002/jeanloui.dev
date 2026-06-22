@@ -1,7 +1,6 @@
 import Image from "next/image";
-import { ArrowRight, Code2, Terminal } from "lucide-react";
+import { ArrowRight, Code2, Mail, Terminal } from "lucide-react";
 import { profile } from "@/lib/content";
-import { CopyEmailButton } from "@/components/CopyEmailButton";
 import { SocialLinks } from "@/components/SocialLinks";
 import { ArrowDoodle } from "@/components/Doodles";
 
@@ -19,7 +18,13 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
-            <CopyEmailButton email={profile.email} />
+            <a
+              href="#contact"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-5 py-3 text-sm font-medium text-white transition-colors hover:bg-accent-strong"
+            >
+              <Mail size={18} />
+              Contact me
+            </a>
             <a
               href="#experience"
               className="group inline-flex items-center gap-2 rounded-full border border-line-strong px-5 py-3 text-sm font-medium text-ink transition-colors hover:bg-subtle"
@@ -29,9 +34,9 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="mt-3 flex items-center gap-1.5">
+          <div className="mt-3 ml-7 flex items-center gap-1.5">
             <ArrowDoodle className="h-8 w-8 text-accent" />
-            <span className="font-hand text-xl text-accent">fastest way to reach me</span>
+            <span className="mt-4 font-hand text-[1.4rem] text-accent">always up for a good challenge</span>
           </div>
 
           <div className="mt-9">
