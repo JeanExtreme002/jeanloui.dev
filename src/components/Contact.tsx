@@ -15,7 +15,7 @@ export function Contact() {
           </p>
           <div className="mt-6 max-w-md">
             <CopyEmailButton email={profile.email} variant="inline" />
-            <p className="mt-2 ml-12 flex items-center gap-2">
+            <p className="mt-2 ml-6 flex items-center gap-2">
               <ArrowDoodle className="h-8 w-8 text-accent" />
               <span className="font-hand text-xl text-accent">fastest way to reach me</span>
             </p>
