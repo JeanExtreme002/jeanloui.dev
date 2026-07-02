@@ -74,6 +74,60 @@
   animation: hello-write 3.4s cubic-bezier(0.65, 0, 0.35, 1) 1.2s forwards;
 }
 
+.github-hop {
+  animation: github-hop 2.6s ease-in-out infinite;
+}
+
+@keyframes github-hop {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  87% {
+    transform: translateY(-2.5px);
+  }
+  94% {
+    transform: translateY(0);
+  }
+}
+
+.icon-sparkle {
+  /* 4-point sparkle star, softened with a light blur */
+  clip-path: polygon(
+    50% 0%,
+    60% 40%,
+    100% 50%,
+    60% 60%,
+    50% 100%,
+    40% 60%,
+    0% 50%,
+    40% 40%
+  );
+  filter: blur(1px);
+  opacity: 0;
+  will-change: opacity, transform;
+  animation: icon-sparkle 2.6s ease-in-out infinite;
+}
+
+@keyframes icon-sparkle {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -87,5 +141,14 @@
   .hero-trail-line {
     animation: none;
     stroke-dashoffset: 0;
+  }
+
+  .github-hop {
+    animation: none;
+  }
+
+  .icon-sparkle {
+    animation: none;
+    opacity: 0;
   }
 }
