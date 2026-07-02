@@ -1,8 +1,9 @@
 import Image from "next/image";
-import { ArrowRight, Code2, Mail, Terminal } from "lucide-react";
+import { ArrowRight, Mail, Terminal } from "lucide-react";
 import { profile } from "@/lib/content";
 import { SocialLinks } from "@/components/SocialLinks";
 import { ArrowDoodle } from "@/components/Doodles";
+import { CodeTerminal } from "@/components/CodeTerminal";
 
 export function Hero() {
   return (
@@ -46,12 +47,7 @@ export function Hero() {
 
         <div className="order-first min-w-0 md:order-last">
           <div className="group relative mx-auto w-full max-w-[18rem] md:max-w-none">
-            <span
-              aria-hidden
-              className="absolute -left-5 -top-5 z-10 flex h-11 w-11 -rotate-6 items-center justify-center rounded-xl border border-line-strong bg-paper text-accent shadow-sm transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:rotate-0"
-            >
-              <Code2 className="h-6 w-6" />
-            </span>
+            <CodeTerminal />
             <div className="relative">
               <div
                 aria-hidden
