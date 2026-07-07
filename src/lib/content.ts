@@ -7,6 +7,7 @@ import certificationsData from "@/../content/certifications.json";
 import educationData from "@/../content/education.json";
 import achievementsData from "@/../content/achievements.json";
 import quotesData from "@/../content/quotes.json";
+import themeData from "@/../content/theme.json";
 
 export interface Stat {
   icon: string;
@@ -111,6 +112,18 @@ export interface Quote {
   author: string;
 }
 
+export interface ThemePalette {
+  label: string;
+  accent: string;
+  accentStrong: string;
+  accentSoft: string;
+}
+
+export interface ThemeConfig {
+  active: string;
+  themes: Record<string, ThemePalette>;
+}
+
 export const profile: Profile = profileData;
 export const socialLinks: SocialLink[] = socialData;
 export const experiences: Experience[] = experienceData;
@@ -120,3 +133,9 @@ export const certifications: Certification[] = certificationsData;
 export const education: Education[] = educationData;
 export const achievements: Achievement[] = achievementsData;
 export const quotes: Quote[] = quotesData;
+
+export const themeConfig: ThemeConfig = themeData;
+
+/** The palette selected via `active` in content/theme.json, falling back to "forest-green". */
+export const activeTheme: ThemePalette =
+  themeConfig.themes[themeConfig.active] ?? themeConfig.themes["forest-green"];
