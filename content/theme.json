@@ -1,0 +1,35 @@
+{
+  "active": "forest-green",
+  "themes": {
+    "forest-green": {
+      "label": "Forest green",
+      "accent": "#1f6b53",
+      "accentStrong": "#16543f",
+      "accentSoft": "#eef4f1"
+    },
+    "blue": {
+      "label": "Indigo blue",
+      "accent": "#2b5cad",
+      "accentStrong": "#1f4a8f",
+      "accentSoft": "#eef2fb"
+    },
+    "amber": {
+      "label": "Amber / ochre",
+      "accent": "#b8752a",
+      "accentStrong": "#935a1c",
+      "accentSoft": "#f7f0e6"
+    },
+    "terracotta": {
+      "label": "Terracotta / rust",
+      "accent": "#b04a34",
+      "accentStrong": "#8c3826",
+      "accentSoft": "#f7ece8"
+    },
+    "indigo-violet": {
+      "label": "Indigo / violet",
+      "accent": "#5b4bc4",
+      "accentStrong": "#4536a3",
+      "accentSoft": "#f0eefb"
+    }
+  }
+}

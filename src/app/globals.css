@@ -9,6 +9,8 @@
   --color-faint: #9aa0a6;
   --color-line: #ebecee;
   --color-line-strong: #dadce0;
+  /* Base default (the "original" theme). The active palette is selected in
+     content/theme.json and injected onto <html> in layout.tsx. */
   --color-accent: #1f6b53;
   --color-accent-strong: #16543f;
   --color-accent-soft: #eef4f1;

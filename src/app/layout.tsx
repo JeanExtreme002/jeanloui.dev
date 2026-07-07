@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Caveat, Inter, Space_Grotesk } from "next/font/google";
 import localFont from "next/font/local";
-import { profile, socialLinks } from "@/lib/content";
+import { activeTheme, profile, socialLinks } from "@/lib/content";
 import "./globals.css";
 
 const display = Space_Grotesk({
@@ -92,6 +92,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html
       lang="en"
       className={`${display.variable} ${sans.variable} ${hand.variable} ${signature.variable}`}
+      // Active palette from content/theme.json — overrides the @theme defaults in globals.css.
+      style={
+        {
+          "--color-accent": activeTheme.accent,
+          "--color-accent-strong": activeTheme.accentStrong,
+          "--color-accent-soft": activeTheme.accentSoft,
+        } as React.CSSProperties
+      }
     >
       <body>
         {children}
