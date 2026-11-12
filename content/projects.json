@@ -5,7 +5,7 @@
     "description": "SDK for Python and Node.js to retrieve real-time data about flights, aircraft and airports from Flightradar24.",
     "keywords": ["Python", "Node.js", "SDK", "Real-time", "Aviation"],
     "repoUrl": "https://github.com/JeanExtreme002/FlightRadarAPI",
-    "metric": { "icon": "download", "value": "180K+/mo", "label": "PyPI downloads" },
+    "metric": { "icon": "download", "value": "100K+/mo", "label": "PyPI downloads" },
     "secondary": { "label": "PyPI", "url": "https://pypi.org/project/FlightRadarAPI/", "icon": "pypi" },
     "tertiary": { "label": "NPM", "url": "https://www.npmjs.com/package/flightradarapi", "icon": "npm" }
   },
@@ -15,7 +15,7 @@
     "description": "Python library built with ctypes that lets you inspect, modify and search the memory of any running process in a few lines of Python.",
     "keywords": ["Python", "Lib", "Cross-platform", "Hacking", "Monitoring"],
     "repoUrl": "https://github.com/JeanExtreme002/PyMemoryEditor",
-    "metric": { "icon": "star", "value": "200+ stars", "label": "GitHub stars" },
+    "metric": { "icon": "download", "value": "50K+/mo", "label": "PyPI downloads" },
     "secondary": { "label": "PyPI", "url": "https://pypi.org/project/PyMemoryEditor/", "icon": "pypi" }
   },
   {
